@@ -11,21 +11,19 @@
 <body>
 	<script src="index.js"></script>
 <div class=data >
-
-	<form onsubmit="return false" class="frm">
-		<div class="vvod">
-			<select autofocus id="group" class="selector">
-				<option value disabled selected>выбор скрипта</option>
+	<form onsubmit="return false">
+		<select autofocus id="group" class="selector">
+				<option value disabled selected>Направление разработки</option>
 				<option value="frontend" >Front-End</option>
 				<option value="backend">Back-End</option>
 				<option value="mobile">Mobile</option>
 			</select>
 			<input type="submit" value="Загрузить!" onclick="zapros()" class="btn">
-		</div>
 	</form>
 	<div class="cards" id="cards">
 		<!-- Здесь будут карточки языков-->
 	</div>
+	 
 </div> 
 <script>
 
