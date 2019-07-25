@@ -1,2 +1,2 @@
 # inq.forjm.github.io
-хостинг для JM
+репозиторий для JavaMentor FrntEndTest
